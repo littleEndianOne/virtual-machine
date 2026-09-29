@@ -6,6 +6,13 @@ control flow, functions, local and global variables, strings, arrays, and
 events. The included test runner exercises the VM through unit-style
 instruction tests.
 
+## Related projects
+
+- [VM-CLI](https://github.com/littleEndianOne/VM-CLI) provides a command-line
+  interface for running this virtual machine.
+- [Assembler](https://github.com/littleEndianOne/Assembler) is a TypeScript
+  assembler that produces programs for this virtual machine.
+
 ## Project layout
 
 | Path | Contents |
