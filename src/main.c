@@ -101,7 +101,7 @@ int main() {
 
     ShowTestStats();
 
-    return 0;
+    return tests_failed == 0 ? 0 : 1;
 }
 
 void RunAllSets() {
@@ -164,5 +164,4 @@ void ShowTestStats() {
     printf("Tests failed: %d \n", tests_failed);
     printf("Percentage tests failed: %f %%\n", ((float) tests_failed / tests_run)* 100);
 }
-
 
